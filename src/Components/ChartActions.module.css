@@ -1,0 +1,61 @@
+
+button {
+    font: inherit;
+    cursor: pointer;
+    color: #77002e;
+    border:0.1em solid #FFFFFF;
+    padding:0.1cm 0.4cm ;
+    border-radius: 1cm;
+    display: inline-block;
+    margin: 0.5cm;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.2s;
+    text-align: center;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+}
+button:hover:enabled{
+  color: #000002;
+  background-color: #baf9e9;
+  }
+
+button:disabled{
+  color: #a9a9ad;
+  background-color: #f1f1f1;
+  }
+
+input[type="date"]::-webkit-clear-button {
+  display: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button { 
+  display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: #2c3e50;
+}
+
+input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #95a5a6;
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 18px;
+  border:1px solid #ecf0f1;
+  background:#ecf0f1;
+  padding:5px;
+  display: inline-block !important;
+  visibility: visible !important;
+  margin-left: 50cm;
+}
+
+input[type="date"], focus {
+  color: #95a5a6;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
